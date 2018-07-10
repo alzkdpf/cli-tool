@@ -1,0 +1,24 @@
+{
+  "name": "git-commandline-sample",
+  "version": "1.0.0",
+  "description": "command line tool sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "lsj":"./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.code21032.synology.me/git/root2018/node-cli-sample.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "code21032@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.16.0"
+  }
+}
