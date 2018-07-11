@@ -6,12 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":{
-    "lsj":"./index.js"
+  "bin": {
+    "lsj": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "http://git.code21032.synology.me/git/root2018/node-cli-sample.git"
+    "url": "https://github.com/alzkdpf/cli-tool.git"
   },
   "keywords": [
     "cli"
