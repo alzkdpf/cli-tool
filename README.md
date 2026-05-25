@@ -1,18 +1,43 @@
-#### command line tool sample
+# cli-tool
 
-#### package.json 설정
-```
-"bin":{
-    "command":"./index.js"
-}
+for notejs
+
+## Overview
+
+- Repository: [alzkdpf/cli-tool](https://github.com/alzkdpf/cli-tool)
+- Visibility: Public
+- Last updated: 2018-07-11
+- Main stack: JavaScript, Node.js
+
+## Project Structure
+
+```text
+README.md
+index.js
+package-lock.json
+package.json
+sample.txt
 ```
 
-#### install
-```
-$ npm install -g 
+## Getting Started
+
+Install dependencies or prepare the project:
+
+```bash
+npm install
 ```
 
-#### test
+Run the common development command:
+
+```bash
+npm run dev
 ```
-$ node index.js -u user -p pass sample.txt
-```
+
+## Available Scripts
+
+- `test`: `echo "Error: no test specified" && exit 1`
+
+## Notes
+
+- This README was generated from the repository metadata and file structure.
+- Update this document when setup steps, deployment targets, or project ownership changes.
